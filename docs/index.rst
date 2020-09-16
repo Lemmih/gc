@@ -6,15 +6,16 @@
 Welcome to GC Notes's documentation!
 ====================================
 
+Stuff here?
+
+.. postlist::
+   :tags: stc
+
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :hidden:
+   :caption: Articles:
+
+   blocking
 
 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
