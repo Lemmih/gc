@@ -1,0 +1,27 @@
+site_name: GC Notes
+repo_url: https://github.com/Lemmih/gc
+theme:
+  name: readthedocs
+  highlightjs: true
+  hljs_languages:
+    - haskell
+    - plaintext
+    - text
+    - txt
+markdown_extensions:
+  - markdown_include.include
+  - pymdownx.arithmatex
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML
+  - https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.56.0/codemirror.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.56.0/mode/haskell/haskell.min.js
+extra_css:
+  - fix.css
+  - https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.56.0/codemirror.min.css
+nav:
+#  - Reanimate: index.md
+#  - Morphology (incomplete): morphology.md
+#  - How to:
+#    - Use fonts (incomplete): fonts.md
+  - Articles:
+    - "Blocking calls": blocking.md
