@@ -5,9 +5,7 @@ theme:
   highlightjs: true
   hljs_languages:
     - haskell
-    - plaintext
-    - text
-    - txt
+    - c
 markdown_extensions:
   - markdown_include.include
   - pymdownx.arithmatex
@@ -24,4 +22,5 @@ nav:
 #  - How to:
 #    - Use fonts (incomplete): fonts.md
   - Articles:
+    - "Bandwidth assumptions": bandwidth.md
     - "Blocking calls": blocking.md

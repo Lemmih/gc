@@ -50,5 +50,5 @@ minor generation.
 # Appendix: blocking.hs
 
 ```haskell
-{!blocking.hs!}
+{!src/blocking.hs!}
 ```
